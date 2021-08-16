@@ -1,34 +1,25 @@
-/*p{
-    background-color: green;
-    color:white;
-    padding: 10px;
-}
-
-.style1 {
-    background-color: aqua;
-    color: black;
-    border: none !important;  
-}
-
-#style2{
-    background-color: pink;
-    border: 2px solid black;  
-}
-
-
-p{
-    background-color: gray; 
-}
-*/
-
-body{
-    color:red;
-    border: 1px solid black;
+span,
+div{
+    border:10px solid red;
+   /* margin: 10px;
+    padding: 10px;*/
+    margin: 10px 20px ;
+    padding: 10px 20px 30px 40px;
+    margin-top: 10px;
+    margin-right: 20px;
     margin-bottom: 30px;
+    margin-left: 40px;
 }
 
-p{
-    border:inherit;
-    margin: inherit;
+.test{
+    display: inline;
+}
+
+.mar {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
