@@ -1,44 +1,83 @@
-h1,
-h2,
-span{
+a{
+    color :black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:aqua; 
+}
+
+a:hover {
     color:red;
 }
 
-div p{
-    color:green;
+a:active {
+     color:green;
 }
 
-div p span{
-    color:blue;
-}
-
-ul li > span{
+a:focus {
     font-weight: bold;
 }
 
-ul li + li{
+p::first-letter{
+    font-size: 40px;
+}
+
+p::first-line{
+    text-decoration: underline;
+}
+
+p::selection{
+    background-color: yellow;
+    color:red;
+}
+
+h1::before{
+    content:"This is ";
+    text-transform: uppercase;
+}
+
+h1::after{
+    content:" chanel";
+    color:red;
+}
+
+.list1 li:first-child{
+    color:blue;
+}
+
+.list1 li:last-child{
+    color:blue;
+}
+
+.list2 li:nth-child(even){
+    color:red;
+}
+
+.list2 li:nth-child(odd){
     color:aqua;
 }
- 
-br ~ p {
-    font-size: 30px;
+
+
+.list3 li:nth-child(3n + 1){
+    text-transform:uppercase;
+
+}
+.list3 li:nth-child(4n + 2){
+border: 1px solid black    
 }
 
-a[target]{
-    background-color: yellow;
+.text span:first-of-type{
+    color: red;
 }
 
-a[target="_blank"]{
-    background-color: blue;
+.text span:last-of-type{
+    color: blue;
 }
 
-a[href^="http://123"]{
-    background-color: aqua;
+.text span:nth-of-type(2){
+    border: 1px solid black;
 }
 
-a[href$=".jpg"]{
-    background-color: teal;
-}
-a[href*="link"]{
-    background-color: rebeccapurple;
-}
+.list4 li:not(.item){
+    border: 1px solid blue;
