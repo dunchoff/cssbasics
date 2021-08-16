@@ -1,8 +1,18 @@
-.first{
-    display: none;
+body{
+    padding: 0;
+    margin: 0;
 }
 
-.second{
-    /* visibility: hidden; */
-    color:transparent;
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color:gainsboro;
+    background-image: url(https://www.rosphoto.com/images/u/articles/1510/3_13.jpg);
+    background-size: auto 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; */
+    background:url(https://kfund.github.io/ch-marathon/images/KFundSchool_logo_final.png)
+    center no-repeat,
+    url(https://content.asos-media.com/-/media/homepages/unisex/generic-hp/apr-2019/asos-summer-generic-hp-desktop-new.jpg);
 }
