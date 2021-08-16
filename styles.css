@@ -1,22 +1,8 @@
-.example{
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    margin: 20px;
-    border-radius:20px/40px;
-    border-top-right-radius: 40px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 5px;
+.first{
+    display: none;
 }
 
-ul li{
-    list-style-type: circle;
-    list-style-position: inside;
-}
-
-h1{
-    /* color:red; */
-     color:rgba(12, 123, 33, 3)
-
+.second{
+    /* visibility: hidden; */
+    color:transparent;
 }
