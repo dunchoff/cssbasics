@@ -1,42 +1,44 @@
-@import "main.css";
-
-*{
+h1,
+h2,
+span{
     color:red;
 }
 
-p{
-    color:yellow
+div p{
+    color:green;
 }
 
-h2{
-    color:green
-}
-
-.heading1{
-    text-decoration: underline;
-}
-
-.heading2{
-    text-transform: uppercase;
-}
-
-p.fz20{
-    font-size: 20px;
-}
-
-#heading{
-    font-size: 40px;
-    border:1px solid black
-}
-
-q{
+div p span{
     color:blue;
 }
 
-q.simple{
-    color:aqua;
+ul li > span{
+    font-weight: bold;
 }
 
-body q.simple{
-    color:fuchsia;
+ul li + li{
+    color:aqua;
+}
+ 
+br ~ p {
+    font-size: 30px;
+}
+
+a[target]{
+    background-color: yellow;
+}
+
+a[target="_blank"]{
+    background-color: blue;
+}
+
+a[href^="http://123"]{
+    background-color: aqua;
+}
+
+a[href$=".jpg"]{
+    background-color: teal;
+}
+a[href*="link"]{
+    background-color: rebeccapurple;
 }
